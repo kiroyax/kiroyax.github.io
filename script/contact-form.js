@@ -32,6 +32,8 @@ function validateForm() {
     errorNodes[0].innerText = "Pole nie może być puste";
     nameInput.classList.add("error-border");
     errorFlag = true;
+  } else {
+    errorNodes[0].innerText = " ";
   }
 
   if (!emailIsValid(email.value)) {

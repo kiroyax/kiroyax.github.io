@@ -2,6 +2,9 @@
     max-width: 50em;
     padding: 1em;
     margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5em;
+    background-color: white;
 }
 
 .offer {
@@ -22,10 +25,11 @@
 .offer-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin:auto;
+    margin: auto;
     padding: 1.5em;
     transition: 0.5s;
     border-radius: 1em;
+    max-width: 50em;
 }
 
 .offer-item {

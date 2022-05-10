@@ -2,6 +2,11 @@
     max-width: 50em;
     padding: 1em;
     margin: 0 auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5em;
+    background-color: white;
 }
 
 .contact-list {
@@ -17,14 +22,15 @@
 
 .contact-item {
     text-align: center;
-    border: rgba(0, 0, 0, 0) dotted 2px;
+    border-bottom: rgba(0, 0, 0, 0) dotted 2px;
     padding: 1em;
     transition: 0.5s;
 }
 
 .contact-item:hover{
-    background-color:rgba(245, 245, 245, 0.7);
+    background-color:rgba(245, 245, 245, 0.8);
     border-radius: 1em;
+    border-bottom: rgb(253, 82, 0) dotted 2px;
 }
 
 .contact-image {
