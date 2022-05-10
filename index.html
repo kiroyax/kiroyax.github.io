@@ -296,18 +296,17 @@
                 za co dokonywany jest przelew.</b>
                 <img class="contact-image" src="images/sign-up.png" width="50px">
             </div>
-            <form action="https://formsubmit.co/cwiklak@gmail.com" method="POST" onsubmit="event.preventDefault(); validateForm()" class="contact-box contact-item">
+            <form action="https://formsubmit.co/cwiklak.a.j@gmail.com" method="POST"  class="contact-box contact-item">
                     <h4 class="h4-contact">Masz pytanie?</h4>
-                    <input type="text" class="field" id="name" placeholder="Twoje imię">
+                    <input type="text" class="field" id="name" name="name" placeholder="Twoje imię">
                     <small class="error"></small>
-                    <input type="email" class="field" id="email" placeholder="Twój adres e-mail">
+                    <input type="email" class="field" id="email" name="email" placeholder="Twój adres e-mail">
                     <small class="error"></small>
                     <textarea class="field" id="message" placeholder="Twoja wiadomość" rows="5"></textarea>
                     <small class="error"></small>
                     <button class="btn-send">Wyślij</button>
                     <p id="success"></p>
             </form>
-            <script src="https://smtpjs.com/v3/smtp.js"></script>
             <script src="script/contact-form.js"></script>
         </div>
     </section>
