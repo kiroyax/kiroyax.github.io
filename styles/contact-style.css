@@ -23,7 +23,6 @@
 }
 
 .contact-item:hover{
-    /* border: #F0803C dotted 2px; */
     background-color:rgba(245, 245, 245, 0.7);
     border-radius: 1em;
 }

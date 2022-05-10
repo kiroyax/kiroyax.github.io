@@ -10,7 +10,7 @@
     line-height: 50px;
     color: black;
     font-size: 30px;
-    border: dotted black 2px;
+    border: solid black 2px;
     border-radius: 1em;
 
     transition: 0.5s;
