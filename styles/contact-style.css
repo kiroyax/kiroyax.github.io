@@ -99,3 +99,7 @@
 #success {
     color: rgb(0, 0, 0);
 }
+
+.form-item {
+    padding: 1em;
+}
