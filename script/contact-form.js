@@ -1,23 +1,3 @@
-// function sendEmail() {
-//   Email.send({
-//     Host: "smtp.gmail.com",
-//     Username: "a.j.cwiklak@gmail.com",
-//     Password: "Karaluszek378123#",
-//     To: "cwiklak.a.j@gmail.com",
-//     From: document.getElementById("email").value,
-//     Subject: "Wiadomość z formularza na stronie",
-//     Body:
-//       "Imię:" +
-//       getElementById("name").value +
-//       "<br>" +
-//       "E-mail:" +
-//       getElementById("email").value +
-//       "<br>" +
-//       "Treść wiadomości:" +
-//       getElementById("message").value,
-//   }).then((message) => alert(message));
-// }
-
 const nameInput = document.querySelector("#name");
 const email = document.querySelector("#email");
 const message = document.querySelector("#message");

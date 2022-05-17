@@ -4,7 +4,8 @@ $email = $_POST['email'];
 $message = $_POST['message'];
 
 $mailheader = "Od:" . $name . "<" . $email . ">\r\n";
-$recipient = "naukajazdybis@gmail.com";
+$recipient = "cwiklak.a.j@gmail.com";
 
-mail($recipient, 'Temat', $message, $mailheader)
-or die("Wystąpił błąd");
+$sent = mail($recipient, 'Temat', $message, $mailheader)
+    or die("Wystąpił błąd");
+?>
